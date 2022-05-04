@@ -1,0 +1,6 @@
+
+rm manifest.json
+
+ln -s manifest.dev.json manifest.json
+
+ln -s manifest.prod.json manifest.json
