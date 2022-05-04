@@ -1,13 +1,12 @@
 {
   "name": "Maximize Detached Tab",
-  "description": "Maximize Detached Tab",
+  "description": "Maximizes tab that is dragged from a maximized window.",
   "version": "0.0.1",
   "manifest_version": 3,
-
+  "permissions": ["storage"],
   "background": {
     "service_worker": "background.js"
   },
-
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -17,8 +16,12 @@
       "128": "/images/128.png"
     }
   },
-
-  "permissions": ["storage"],
+  "icons": {
+    "16": "/images/16.png",
+    "32": "/images/32.png",
+    "48": "/images/48.png",
+    "128": "/images/128.png"
+  },
 
   "commands": {
     "Ctrl+M": {
