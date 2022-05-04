@@ -25,3 +25,7 @@ icon
 github readme
 
 web store console
+
+
+clean code
+package.sh
