@@ -1,6 +1,5 @@
-remove "commands" prod build
 
-future i could use timeout...
+future i could use timeout... onChangedBounds
 
 manifest, description
 reference
@@ -8,19 +7,10 @@ https://chrome.google.com/webstore/detail/maximize-dragged-tab/niaijlpbaogmimhfo
 
 release to web store
 
-release checklist
-sync prod and dev changes
-
-
-on install set enabled true, nah if null default to true
-
-next task
-icon
+chrome web store banner image
 
 github readme
 
 web store console
 
-
 clean code
-package.sh

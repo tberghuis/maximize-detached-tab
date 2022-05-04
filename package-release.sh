@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# before run check
-# manifest version
-# diff manifest prod dev
-# background.js comment out listenReloadCommand
-
 rm -rf release
 rm release.zip
 
