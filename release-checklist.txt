@@ -1,0 +1,6 @@
+increment version manifest
+diff prod dev manifest.json
+check background.js comment out listenReloadCommand
+./package-release.sh
+test release.zip
+upload chrome web store console
