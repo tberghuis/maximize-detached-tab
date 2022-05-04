@@ -8,20 +8,16 @@ document.addEventListener("DOMContentLoaded", async function () {
     .addEventListener("change", handleCheckboxChange);
 });
 
+/////// functions
 async function getExtensionEnabled() {
   const storage = await chrome.storage.sync.get("enabled");
-  console.log("storage", storage);
-  console.log("storage.enabled", storage.enabled);
   if (storage.enabled === undefined) {
-    console.log("udefined");
     return true;
   }
   return storage.enabled;
 }
 
 function handleCheckboxChange(e) {
-  console.log("handleCheckboxChange", e);
-
   const enabled = document.getElementById("extension-enabled").checked;
   chrome.storage.sync.set({
     enabled: enabled,
