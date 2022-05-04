@@ -1,16 +1,7 @@
 
 future i could use timeout... onChangedBounds
 
-manifest, description
 reference
 https://chrome.google.com/webstore/detail/maximize-dragged-tab/niaijlpbaogmimhfoaakogncgmhhopge
 
-release to web store
-
-chrome web store banner image
-
 github readme
-
-web store console
-
-clean code
