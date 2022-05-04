@@ -1,5 +1,5 @@
 // comment out for release
-listenReloadCommand();
+// listenReloadCommand();
 
 console.log("hello background");
 
