@@ -1,0 +1,20 @@
+{
+  "name": "Maximize Detached Tab",
+  "description": "Maximize Detached Tab",
+  "version": "0.0.1",
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "commands": {
+    "Ctrl+M": {
+      "suggested_key": {
+        "default": "Ctrl+M",
+        "mac": "Command+M"
+      },
+      "description": "Ctrl+M."
+    }
+  }
+}

@@ -1,0 +1,7 @@
+remove "commands" prod build
+
+add storage permission
+setting
+  extension enabled
+
+future i could use timeout...
