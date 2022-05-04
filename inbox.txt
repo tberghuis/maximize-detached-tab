@@ -1,9 +1,5 @@
 remove "commands" prod build
 
-add storage permission
-setting
-  extension enabled
-
 future i could use timeout...
 
 manifest, description
@@ -23,3 +19,9 @@ sync prod and dev changes
 
 on install set enabled true, nah if null default to true
 
+next task
+icon
+
+github readme
+
+web store console
