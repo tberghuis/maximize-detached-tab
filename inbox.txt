@@ -5,3 +5,7 @@ setting
   extension enabled
 
 future i could use timeout...
+
+manifest, description
+reference
+https://chrome.google.com/webstore/detail/maximize-dragged-tab/niaijlpbaogmimhfoaakogncgmhhopge
