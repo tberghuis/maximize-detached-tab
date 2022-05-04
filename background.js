@@ -21,15 +21,28 @@ async function handleDetached(tabId, { oldWindowId }) {
   if (!enabled) {
     return;
   }
-  const oldWindow = await chrome.windows.get(oldWindowId);
-  if (oldWindow.state != "maximized") {
+
+  try {
+    const oldWindow = await chrome.windows.get(oldWindowId);
+    if (oldWindow.state != "maximized") {
+      return;
+    }
+  } catch (e) {
+    // window was a single tab
+    console.log("error", e);
     return;
   }
-  chrome.tabs.get(tabId, function (tab) {
-    chrome.windows.update(tab.windowId, {
-      state: "maximized",
+
+  try {
+    chrome.tabs.get(tabId, function (tab) {
+      chrome.windows.update(tab.windowId, {
+        state: "maximized",
+      });
     });
-  });
+  } catch (e) {
+    // this shouldn't happen
+    console.log("error", e);
+  }
 }
 
 async function getExtensionEnabled() {
