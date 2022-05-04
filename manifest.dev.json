@@ -18,6 +18,8 @@
     }
   },
 
+  "permissions": ["storage"],
+
   "commands": {
     "Ctrl+M": {
       "suggested_key": {

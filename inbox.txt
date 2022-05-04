@@ -21,3 +21,5 @@ release checklist
 sync prod and dev changes
 
 
+on install set enabled true
+
