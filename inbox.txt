@@ -9,3 +9,15 @@ future i could use timeout...
 manifest, description
 reference
 https://chrome.google.com/webstore/detail/maximize-dragged-tab/niaijlpbaogmimhfoaakogncgmhhopge
+
+
+next task, popup extension enabled
+...
+
+release to web store
+
+
+release checklist
+sync prod and dev changes
+
+
