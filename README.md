@@ -1,0 +1,1 @@
+chrome web store: https://chrome.google.com/webstore/detail/maximize-detached-tab/fnljlhcgjoehmlmodjgejheenbacnjke/
