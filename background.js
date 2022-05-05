@@ -33,20 +33,7 @@ async function handleDetached(tabId, { oldWindowId }) {
     return;
   }
 
-
   chrome.windows.onBoundsChanged.addListener(handleOnBoundsChanged);
-
-  // try {
-  //   chrome.tabs.get(tabId, function (tab) {
-  //     chrome.windows.update(tab.windowId, {
-  //       state: "maximized",
-  //     });
-  //   });
-  // } catch (e) {
-  //   // this shouldn't happen
-  //   // this is probably running on windows
-  //   console.log("error", e);
-  // }
 }
 
 async function getExtensionEnabled() {
@@ -59,9 +46,6 @@ async function getExtensionEnabled() {
 
 async function handleOnBoundsChanged(window) {
   chrome.windows.onBoundsChanged.removeListener(handleOnBoundsChanged);
-  // try {
-  //   chrome.windows.get(window.id);
-  // } catch (e) {}
   maximizeWindow(window.id)
 }
 
