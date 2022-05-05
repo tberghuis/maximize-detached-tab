@@ -1,7 +1,7 @@
 {
   "name": "Maximize Detached Tab",
   "description": "Maximizes tab that is dragged from a maximized window.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 3,
   "permissions": ["storage"],
   "background": {
